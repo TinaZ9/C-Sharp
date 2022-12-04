@@ -6,15 +6,18 @@ namespace TryingNewThings{
     {
         static void Main(string[] args)
         {
+            int lengthOfText = 0;
+            string wholeText = "";
+            do
+            {
+                Console.WriteLine("Please enter the length of the text");
+                string text = Console.ReadLine();
+                lengthOfText += text.Length;
+                wholeText+= text + "\t";
 
-            int temperature = 150;
+            }while(lengthOfText  < 20);
 
-            string stateOfMatter;
-
-            stateOfMatter = temperature < 0 ? "solid" : temperature > 100 ? "gas" : "liquid";
-
-            Console.WriteLine($"State of matter is {stateOfMatter}");
-            Console.ReadKey();
+            Console.WriteLine($"\n{wholeText}");
         }
 
     }
