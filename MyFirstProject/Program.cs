@@ -1,67 +1,49 @@
 ﻿
-public class MyFirstProject
-{
+using System;
 
-    public static void Main()
+public class HelloWorld
+{
+    public static void Main(string[] args)
     {
 
+        int num3;
+        int num1 = 5;
+        int num2 = 5;
 
-        Console.WriteLine("Input first number");
-        String? a = Console.ReadLine();
-        Console.WriteLine("Input first number");
-        String? b = Console.ReadLine();
+        num3 = -num1;
 
+        Console.WriteLine($"num3 is {num3}");
+        
 
-        int firstDigit = int.Parse(a);
-        int secondDigit = int.Parse(b);
+        bool isSunny = true;
+        Console.WriteLine($"is it Sunny? {!isSunny}");
 
+       
 
-        Console.WriteLine("Choose method of calculation?\n add\n multiply\n divide\n subtract");
-        String? selection = Console.ReadLine();
+        bool isLower;
 
+        isLower = num1 != num2;
+        
 
-        switch (selection)
+        if (isLower)
         {
-            case "add":
-                Console.WriteLine(Add(firstDigit, secondDigit));
-                break;
-            case "subtract":
-                Console.WriteLine(Subtract(firstDigit, secondDigit));
-                break;
-            case "divide":
-                Console.WriteLine(Divide(firstDigit, secondDigit));
-                break;
-            case "multiply":
-                Console.WriteLine(Multiply(firstDigit, secondDigit));
-                break;
-            default:
-                Console.WriteLine("Please Select from the list");
-                break;
+            Console.WriteLine($"{num1} is not equal to {num2}");
+        }
+        else
+        {
+            Console.WriteLine($"{num1} is equal to {num2}");
         }
 
 
-        Console.Read();
+
+
+        Console.ReadKey();
 
     }
 
-    public static int Add(int a, int b)
-    {
-        return a + b;
-    }
-    public static int Subtract(int a, int b)
-    {
-        return a + b;
-    }
-
-    public static int Multiply(int a, int b)
-    {
-        return a * b;
-    }
-
-    public static int Divide(int a, int b)
-    {
+    public static int Add(int a, int b) { 
+        
         return a / b;
+    
     }
 }
-
-
