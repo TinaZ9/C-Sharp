@@ -5,45 +5,54 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
+        bool isRegistred = true;
+        String username = "", password = "";
 
-        int num3;
-        int num1 = 5;
-        int num2 = 5;
+        while(isRegistred) {
 
-        num3 = -num1;
 
-        Console.WriteLine($"num3 is {num3}");
-        
+            Console.WriteLine("Please enter your username");
+            username = Console.ReadLine();
 
-        bool isSunny = true;
-        Console.WriteLine($"is it Sunny? {!isSunny}");
+            Console.WriteLine("Please enter your password");
+            password = Console.ReadLine();
 
-       
-
-        bool isLower;
-
-        isLower = num1 != num2;
-        
-
-        if (isLower)
-        {
-            Console.WriteLine($"{num1} is not equal to {num2}");
-        }
-        else
-        {
-            Console.WriteLine($"{num1} is equal to {num2}");
+            if(username != "" && password != "")
+            {
+                Console.WriteLine("You are login");
+                isRegistred= false;
+            }
+            else
+            {
+                Console.WriteLine("Invalid username and password");
+            }
         }
 
-
-
+        Console.WriteLine($"\n\nYour username is {username} and your password is {password}");
 
         Console.ReadKey();
 
     }
 
-    public static int Add(int a, int b) { 
+    public static String Weather(int temp) { 
         
-        return a / b;
+        if(temp < 10 && temp != 0){
+
+            return "Take the coat";
+        
+        }else if (temp == 10){
+
+            return "It's 10 degrees C";
+
+        }
+        else if(temp > 10){
+
+            return "It's 10 degrees C";
+        }
+        else
+        {
+            return "Not a number";
+        }
     
     }
 }

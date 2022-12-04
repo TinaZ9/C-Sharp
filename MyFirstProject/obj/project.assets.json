@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\znier\\Desktop\\C Sharp\\MyFirstProject\\MyFirstProject.csproj",
+      "projectUniqueName": "C:\\Users\\znier\\Desktop\\git-practice\\C-Sharp\\MyFirstProject\\MyFirstProject.csproj",
       "projectName": "MyFirstProject",
-      "projectPath": "C:\\Users\\znier\\Desktop\\C Sharp\\MyFirstProject\\MyFirstProject.csproj",
+      "projectPath": "C:\\Users\\znier\\Desktop\\git-practice\\C-Sharp\\MyFirstProject\\MyFirstProject.csproj",
       "packagesPath": "C:\\Users\\znier\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\znier\\Desktop\\C Sharp\\MyFirstProject\\obj\\",
+      "outputPath": "C:\\Users\\znier\\Desktop\\git-practice\\C-Sharp\\MyFirstProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
