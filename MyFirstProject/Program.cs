@@ -1,25 +1,21 @@
-﻿
-using System;
+﻿using System;
 
-public class HelloWorld
-{
-    public static void Main(string[] args)
+namespace TryingNewThings{
+
+    class HelloWorld
     {
-        String a = Console.ReadLine();
-        int number, numTemp;
-        bool tryStrToInt = int.TryParse(a, out number);
+        static void Main(string[] args)
+        {
 
-        if (tryStrToInt)
-        {
-            numTemp= number;
-            Console.WriteLine(numTemp);
+            int temperature = 150;
+
+            string stateOfMatter;
+
+            stateOfMatter = temperature < 0 ? "solid" : temperature > 100 ? "gas" : "liquid";
+
+            Console.WriteLine($"State of matter is {stateOfMatter}");
+            Console.ReadKey();
         }
-        else
-        {
-            numTemp= 0;
-        }
-        
 
     }
-
 }
