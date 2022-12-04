@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MyFirstProject;
+using System;
+using System.ComponentModel;
 
 namespace TryingNewThings{
 
@@ -6,18 +8,26 @@ namespace TryingNewThings{
     {
         static void Main(string[] args)
         {
-            int lengthOfText = 0;
-            string wholeText = "";
-            do
+            Human student = new Human();
+
+            /*            denis.firstName = "Denise";
+                        denis.Firstname();
+
+
+                        Human michael = new Human();
+                        michael.firstName = "Michael";
+                        michael.Firstname();*/
+
+            string[] firstName = { "Andrew", "Beelzes", "Kaemi", "Mamita"};
+            string[] lastName = { "Ee", "Bob", "Kay", "Durant"};
+
+            for(int x =0; x < firstName.Length; x++)
             {
-                Console.WriteLine("Please enter the length of the text");
-                string text = Console.ReadLine();
-                lengthOfText += text.Length;
-                wholeText+= text + "\t";
+                string student1 = student.Fullname(firstName[x], lastName[x]);
+                Console.WriteLine($"{student1}\n");
+            }
 
-            }while(lengthOfText  < 20);
-
-            Console.WriteLine($"\n{wholeText}");
+            Console.ReadKey();
         }
 
     }
