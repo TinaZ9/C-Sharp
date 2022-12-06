@@ -8,18 +8,17 @@ namespace TryingNewThings{
     {
         static void Main(string[] args)
         {
-            Human student = new Human("Jhon", "wick", "red", 625);
-            Human student2 = new Human("Jhon", "Cena", "yellow", 25);
-            Ball myball = new Ball(10);
-            myball.ballAction(10);
-            myball.ballAction(20);
-            myball.ballAction(30);
-            Console.WriteLine(myball.ballAction(10));
+            Ball ball = new Ball();
+
+            ball.setRoll(25);
+
+            int roll = ball.getRoll();
+            
+
+            Console.WriteLine(roll);
 
 
-            /*student.fullName();
-            student2.fullName();*/
-            Console.ReadKey();
+            Console.Read();
         }
 
     }
