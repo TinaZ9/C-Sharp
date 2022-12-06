@@ -8,25 +8,17 @@ namespace TryingNewThings{
     {
         static void Main(string[] args)
         {
-            Human student = new Human();
+            Human student = new Human("Jhon", "wick", "red", 625);
+            Human student2 = new Human("Jhon", "Cena", "yellow", 25);
+            Ball myball = new Ball(10);
+            myball.ballAction(10);
+            myball.ballAction(20);
+            myball.ballAction(30);
+            Console.WriteLine(myball.ballAction(10));
 
-            /*            denis.firstName = "Denise";
-                        denis.Firstname();
 
-
-                        Human michael = new Human();
-                        michael.firstName = "Michael";
-                        michael.Firstname();*/
-
-            string[] firstName = { "Andrew", "Beelzes", "Kaemi", "Mamita"};
-            string[] lastName = { "Ee", "Bob", "Kay", "Durant"};
-
-            for(int x =0; x < firstName.Length; x++)
-            {
-                string student1 = student.Fullname(firstName[x], lastName[x]);
-                Console.WriteLine($"{student1}\n");
-            }
-
+            /*student.fullName();
+            student2.fullName();*/
             Console.ReadKey();
         }
 
