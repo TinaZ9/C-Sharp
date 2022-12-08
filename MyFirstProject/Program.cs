@@ -10,14 +10,11 @@ namespace TryingNewThings{
         {
             Ball ball = new Ball();
 
-            ball.setRoll(25);
+            ball.height = 4;
+            ball.roll = 10;
+            ball.jump = 10;
 
-            int roll = ball.getRoll();
-            
-
-            Console.WriteLine(roll);
-
-
+            Console.WriteLine(ball.Width);
             Console.Read();
         }
 

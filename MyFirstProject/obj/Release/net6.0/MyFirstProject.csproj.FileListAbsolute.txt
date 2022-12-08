@@ -1,0 +1,15 @@
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\bin\Release\net6.0\MyFirstProject.exe
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\bin\Release\net6.0\MyFirstProject.deps.json
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\bin\Release\net6.0\MyFirstProject.runtimeconfig.json
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\bin\Release\net6.0\MyFirstProject.dll
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\bin\Release\net6.0\MyFirstProject.pdb
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.csproj.AssemblyReference.cache
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.AssemblyInfoInputs.cache
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.AssemblyInfo.cs
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.csproj.CoreCompileInputs.cache
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.dll
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\refint\MyFirstProject.dll
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.pdb
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\MyFirstProject.genruntimeconfig.cache
+C:\Users\znier\Desktop\git-practice\C-Sharp\MyFirstProject\obj\Release\net6.0\ref\MyFirstProject.dll

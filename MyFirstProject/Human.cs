@@ -13,6 +13,7 @@ namespace MyFirstProject
         private string lastName;
         private string color;
         private int age;
+
         //constructor
         public Human(string firstName, string lastName, string color,int age) { 
             this.firstName = firstName;

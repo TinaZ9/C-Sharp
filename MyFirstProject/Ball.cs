@@ -8,45 +8,43 @@ namespace MyFirstProject
 {
     internal class Ball
     {
-        private int roll;
-        private int jump;
-        private string contact="";
+        public int roll;
+        public int jump;
+        private string contact = "";
+        public int height;
         
+        public int Width { get { return roll * jump; }}
 
 
-        //Setters
-        public void setRoll(int roll)
+
+
+
+
+        public int Roll
         {
-            this.roll = roll;
+            get
+            {
+                return roll;
+            }
+
+            set
+            {
+                roll = value;
+            }
         }
 
-        public void setJump(int jump)
+        public string Contact
         {
-            this.jump = jump;
+            get
+            {
+                return contact;
+            }
+            set
+            {
+                contact = value;
+            }
         }
-
-        public void setContact(string contact)
-        {
-            this.contact = contact;
-        }
-
-
-        //Getters
-        public int getRoll()
-        {
-            return this.roll;
-        }
-
-        public int getJump()
-        {
-            return this.jump;
-        }
-
-        public string getContact()
-        {
-            return this.contact;
-        }
-
+            
 
     }
 }
